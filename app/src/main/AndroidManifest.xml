@@ -47,5 +47,17 @@
 
     <uses-permission android:name="android.permission.VIBRATE" />    <!--允许程序振动-->
 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />      <!--允许程序在手机屏幕关闭后后台进程仍然运行-->
+
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />      <!--允许应用可以接收点亮屏幕或解锁广播-->
+
+    <uses-permission android:name="android.permission.GET_TASKS" />     <!--允许程序获取任务信息-->
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />     <!--允许程序挂载、反挂载外部文件系统-->
+
+
+
+
+
 
 </manifest>
