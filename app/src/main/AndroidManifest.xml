@@ -17,4 +17,35 @@
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />      <!--允许程序访问网络连接，可能产生GPRS流量-->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />    <!--允许程序通过WiFi或移动基站的方式获取用户粗略的经纬度信息-->
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />     <!--读取设备外部存储空间（内置SDcard和外置SDCard）的文件，如已添加“WRITE_EXTERNAL_STORAGE ”权限 ，则无必要添加读的权限，因为写权限包含读权限-->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    <!--允许程序写入外部存储,如SD卡上写文件-->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />   <!--允许程序通过GPS芯片接收卫星的定位信息-->
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />     <!--允许程序获取当前WiFi接入的状态以及WLAN热点的信息-->
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />     <!--允许程序改变WiFi状态-->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />      <!--允许程序获取网络信息状态，如当前的网络连接是否有效-->
+
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />        <!--允许程序修改电话状态，如飞行模式，但不包含替换系统拨号器界面-->
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />      <!--允许程序访问电话状态-->
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />        <!--允许程序从非系统拨号器里拨打电话-->
+
+    <uses-permission android:name="android.permission.SEND_SMS" />      <!--允许程序发送短信-->
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />     <!--允许程序访问联系人通讯录信息-->
+
+    <uses-permission android:name="android.permission.READ_SMS" />      <!--允许程序读取短信内容-->
+
+    <uses-permission android:name="android.permission.VIBRATE" />    <!--允许程序振动-->
+
+
 </manifest>
