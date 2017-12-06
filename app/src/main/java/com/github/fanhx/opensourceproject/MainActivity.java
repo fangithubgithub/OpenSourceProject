@@ -3,6 +3,9 @@ package com.github.fanhx.opensourceproject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/**
+ * @author Administrator
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
