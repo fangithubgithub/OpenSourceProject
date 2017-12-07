@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">OpenSourceProject</string>
+    <string name="app_name">开源项目</string>
+    <string name="i_like_new_things">I Like New Things</string>
 </resources>
