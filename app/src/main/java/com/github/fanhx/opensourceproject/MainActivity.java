@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.textgo:
                 Intent intent = new Intent(getApplication(), AboutActivity.class);
                 startActivity(intent);
-
                 break;
+
         }
     }
 }
